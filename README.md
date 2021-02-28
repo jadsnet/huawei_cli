@@ -63,7 +63,6 @@ Repare também que sempre aparece alguma mensagem de log abaixo:
 ```
 <Huawei>
 Feb 28 2021 02:22:49+00:00 Huawei AAA/4/ ...
-
 ```
 
 Nessa segunda etapa, é ideal utilizar um comando para desativar essas mensagens instantâneas,<br> 
@@ -96,7 +95,6 @@ Entrando nas configurações do usuário console:
 ```
 [Huawei]user-interface console 0
 [Huawei-ui-console0]
-
 ```
 
 Sempre que entramos em algum submenu do vrp, é adicionando entre " [] " o nome da instancia em que estamos.<br>
