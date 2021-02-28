@@ -9,3 +9,6 @@
 > <h4>Um tutorial interativo de linhas de comandos Huawei, destinado a ensinar praticas basicas sobre switch e routers.</h3>
 
 Então você quer usar o vrp, certo?
+
+
+🚨 🚧🚧 🛠... ⚙ EM CONSTRUÇÃO ⚙ ...🛠 🚧🚧 🚨
