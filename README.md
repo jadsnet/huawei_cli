@@ -20,9 +20,7 @@ Osistema VRP dessa imagem, após ser iniciada dentro do eve-ng, demora cerca de 
 
 <h1>1 - Login</h1>
 Nessa primeira parte vamos precisar de entrar com usuário <i>super</i> e senha <i>super</i> .<br>
-Lembrando que ao digitar a senha, os caracteres não aparecem:
-<br>
-
+Lembrando que ao digitar a senha, os caracteres não aparecem: <br>
 ```
       Press any key to get started
      
