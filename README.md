@@ -43,14 +43,12 @@ Após digitar a senha, deverá aparecer um aviso, informando que sua senha expir
 Digite a senha antiga e depois a nova senha e repita a senha:
 
  ```
- {c:#5F9EA0}
  Warning: The password is already expired.
 The password needs to be changed. Change now? [Y/N]: y
 Please enter old password:
 Please enter new password:
 Please confirm new password:
 The password has been changed successfully.
-{/c}
 ```
 
 Após logar deverá aparecer a seguinte mensagem:
