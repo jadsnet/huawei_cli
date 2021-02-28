@@ -43,3 +43,37 @@ Please enter new password:
 Please confirm new password:
 The password has been changed successfully.
 ```
+
+Após logar deverá aparecer a seguinte mensagem:
+
+```
+<Huawei>
+Feb 28 2021 02:22:49+00:00 Huawei AAA/4/ChangePasswordAlarm:OID 1.3.6.1.4.1.2011.5.2.2.2.0.112 Local account password has been modified.(TYPE:-- User-name:super)
+<Huawei>
+Feb 28 2021 02:22:49+00:00 Huawei LINE/4/USERLOGIN:OID 1.3.6.1.4.1.2011.5.25.207.2.2 A user login. (UserIndex=0, UserName=super, UserIP=Console0, UserChannel=CON0)
+<Huawei>
+```
+
+<h1>2 - Geral / Usuario </h1>
+
+Repare que ao logar, aparece o nome do router/switch entre os simbolos de " <> ",<br>
+isso signifca que estamos logados no modo "user-view" ou modo usuário sem muitos privilégios.
+Repare também que sempre aparece alguma mensagem de log abaixo:
+
+```
+<Huawei>
+Feb 28 2021 02:22:49+00:00 Huawei AAA/4/ ...
+
+```
+
+Nessa segunda etapa, é ideal utilizar um comando para desativar essas mensagens instantaneas,<br> 
+pois em ambiente de produção pode ser que atrapalhe ao difgitar alguma linha de comando.
+Mesmo no modo usuario, conseguiremos desabilitar esses mensagems com o comando:
+
+```
+<Huawei>undo terminal monitor 
+```
+
+Pressionando enter após cada comando, já significa que a linha digitadda foi efetivada.
+
+
