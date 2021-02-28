@@ -53,12 +53,12 @@ The password has been changed successfully.
 
 Após logar deverá aparecer a seguinte mensagem:
 
-```
-<Huawei>
+```cs
+[<Huawei>
 Feb 28 2021 02:22:49+00:00 Huawei AAA/4/ChangePasswordAlarm:OID 1.3.6.1.4.1.2011.5.2.2.2.0.112 Local account password has been modified.(TYPE:-- User-name:super)
 <Huawei>
 Feb 28 2021 02:22:49+00:00 Huawei LINE/4/USERLOGIN:OID 1.3.6.1.4.1.2011.5.25.207.2.2 A user login. (UserIndex=0, UserName=super, UserIP=Console0, UserChannel=CON0)
-<Huawei>
+<Huawei>]
 ```
 
 <h1>2 - Geral / Usuário </h1>
