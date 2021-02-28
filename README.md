@@ -1,8 +1,8 @@
 <div align="center">
 <h1>Aprenda comandos Huawei</h1>
 <i>Esse treinamento é quase de graça, basta deixar uma star ⭐ no <a href="https://github.com/jadsnet/huawei_cli">repositório</a>.</i>
-  ---
-<i>Destinado à area de Redes de computadores. A quem está iniciando estudos para certificação HCIA R&S.</i>
+
+<i>Destinado à area de Redes de computadores. A quem está iniciando estudos para certificação HCIA R&S.</i><br>
 </div>
 <br>
 
@@ -19,8 +19,8 @@ Osistema VRP dessa imagem, após ser iniciada dentro do eve-ng, demora cerca de 
 ![image](https://user-images.githubusercontent.com/48611984/109405469-86731b80-794f-11eb-97eb-f4ca04e5becf.png)
 
 <h1>1 - Login</h1>
-Nessa primeira parte vamos precisar de entrar com usuário <i>super</i> e senha <i>super</i>
-lembrando que ao digitar a senha, os caracteres não aparecem:
+Nessa primeira parte vamos precisar de entrar com usuário <i>super</i> e senha <i>super</i> .<br>
+Lembrando que ao digitar a senha, os caracteres não aparecem:
 <br></br>
 
 ```
