@@ -23,7 +23,6 @@ Nessa primeira parte vamos precisar de entrar com usuário <i>super</i> e senha 
 Lembrando que ao digitar a senha, os caracteres não aparecem:
 <br>
 
-
 ```
       Press any key to get started
      
