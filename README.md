@@ -54,7 +54,7 @@ Feb 28 2021 02:22:49+00:00 Huawei LINE/4/USERLOGIN:OID 1.3.6.1.4.1.2011.5.25.207
 <Huawei>
 ```
 
-<h1>2 - Geral / Usuario </h1>
+<h1>2 - Geral / Usuário </h1>
 
 Repare que ao logar, aparece o nome do router/switch entre os simbolos de " <> ",<br>
 isso significa que estamos logados no modo "user-view" ou modo usuário sem muitos privilégios.<br>
