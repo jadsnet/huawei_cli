@@ -1,6 +1,7 @@
-
+<div align="center">
 <h1>Aprenda comandos Huawei <img src="https://github.com/jadsnet/huawei_cli/blob/main/images/655076.png" align="center" width="270" height="200">
 </h1>
+</div>
 <div align="center">
 <i>Esse treinamento é quase de graça, basta deixar uma star ⭐ no <a href="https://github.com/jadsnet/huawei_cli">repositório</a>.</i>
 
