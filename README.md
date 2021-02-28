@@ -1,5 +1,6 @@
 <div align="center">
-<h1>Aprenda comandos Huawei</h1>
+<h1>Aprenda comandos Huawei</h1> 
+![Logo do R](http://developer.r-project.org/Logo/Rlogo-5.png)
 <i>Esse treinamento é quase de graça, basta deixar uma star ⭐ no <a href="https://github.com/jadsnet/huawei_cli">repositório</a>.</i>
 
 <i>Destinado à área de Redes de computadores. A quem está iniciando estudos para certificação HCIA R&S.</i><br>
