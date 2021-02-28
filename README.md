@@ -57,7 +57,7 @@ Feb 28 2021 02:22:49+00:00 Huawei LINE/4/USERLOGIN:OID 1.3.6.1.4.1.2011.5.25.207
 <h1>2 - Geral / Usuario </h1>
 
 Repare que ao logar, aparece o nome do router/switch entre os simbolos de " <> ",<br>
-isso signifca que estamos logados no modo "user-view" ou modo usuário sem muitos privilégios.
+isso signifca que estamos logados no modo "user-view" ou modo usuário sem muitos privilégios.<br>
 Repare também que sempre aparece alguma mensagem de log abaixo:
 
 ```
@@ -67,13 +67,50 @@ Feb 28 2021 02:22:49+00:00 Huawei AAA/4/ ...
 ```
 
 Nessa segunda etapa, é ideal utilizar um comando para desativar essas mensagens instantaneas,<br> 
-pois em ambiente de produção pode ser que atrapalhe ao difgitar alguma linha de comando.
+pois em ambiente de produção pode ser que atrapalhe ao difgitar alguma linha de comando.<br>
 Mesmo no modo usuario, conseguiremos desabilitar esses mensagems com o comando:
 
 ```
-<Huawei>undo terminal monitor 
+<Huawei>undo terminal monitor
+Info: Current terminal monitor is off.
 ```
 
-Pressionando enter após cada comando, já significa que a linha digitadda foi efetivada.
+Pressionando enter após cada comando, já significa que a linha digitadda foi efetivada.<br>
+Agora, podemos configurar algumas opções de usuario, pra que facilite na utilização do vrp.<br>
+Só que para isso temos que entrar no modo de usuario com privilégios da seguinte forma:
+
+```
+<Huawei>system-view
+Enter system view, return user view with Ctrl+Z.
+[Huawei]
+```
+
+Repare que após o comando, aparece uma mensagem indicamos que entramos no modo privilegiado<br>
+e se quisermos retornar para mod <i>"user-view"</i> pressioanmos <i>"Ctrl + Z"</i><br>
+
+Repare também que no final o nome do ruter está entre " [] " , indicando que já estamos no modo <i>system-view</i><br>
+Já que estamos no modo system iremos configurar algumas opções de usuario.<br>
+
+Entrando nas configurações do usuario console:
+
+```
+[Huawei]user-interface console 0
+[Huawei-ui-console0]
+
+```
+
+Sempre que entramos em algum sub-menu do vrp, é adicionando entre " [] " o nome da instancia em que estamos.<br>
+Para evitar que o sistema fique deslogando, vamos configurar os minutos que podemos ficar "ociosos" sem digitar
+nenhum comando no console e o sistema não nos deslogue:
+
+```
+[Huawei-ui-console0]idle-timeout 2000
+```
+
+
+
+
+
+
 
 
