@@ -9,12 +9,15 @@
 </div>
 <br>
 
-> <h4>Um tutorial interativo de linhas de comandos Huawei, destinado a ensinar praticas básicas sobre switch e routers.</h3>
+> <h4>Um tutorial interativo de linhas de comandos Huawei, destinado a ensinar praticas básicas sobre switch e routers.</h4>
+><h4>Utilizo eve-ng como emulador</h4>
+><h4>Ulitizo Vmware como virtualizador</h4>
+><h4>Utilizo putty para cesso console</h4>
+ 
+<i>🚨 🚧🚧 🛠... ⚙ ALGUNS TÓPICOS EM CONSTRUÇÃO ⚙ ...🛠 🚧🚧 🚨</i>
 
 Então você quer usar o vrp, certo?
 
-
-🚨 🚧🚧 🛠... ⚙ EM CONSTRUÇÃO ⚙ ...🛠 🚧🚧 🚨
 
 Nos exemplos, estou utilizando uma imagem baixada do site <a href="https://www.eve-ng.net/index.php/documentation/howtos/huawei-ar1000v/">eve-ng</a>.
 O sistema VRP dessa imagem, após ser iniciada dentro do eve-ng, demora cerca de 10 minutos para poder iniciar.
