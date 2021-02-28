@@ -21,7 +21,7 @@ Osistema VRP dessa imagem, após ser iniciada dentro do eve-ng, demora cerca de 
 <h1>1 - Login</h1>
 Nessa primeira parte vamos precisar de entrar com usuário <i>super</i> e senha <i>super</i> .<br>
 Lembrando que ao digitar a senha, os caracteres não aparecem:
-<br></br>
+<br>
 
 ```
       Press any key to get started
@@ -31,6 +31,14 @@ Login authentication
 Username:super
 Password:
 ```
+Após digitar a senha, deverá apreceer um aviso, informando que sua senha expirou, para modificar pressione <i>y</i>.<br>
+Digite a senha antiga e depois a nova senha e repita a senha:
 
-
-
+ ```
+ Warning: The password is already expired.
+The password needs to be changed. Change now? [Y/N]: y
+Please enter old password:
+Please enter new password:
+Please confirm new password:
+The password has been changed successfully.
+```
