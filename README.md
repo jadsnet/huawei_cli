@@ -84,7 +84,7 @@ Info: Current terminal monitor is off.
 
 Pressionando enter após cada comando, já significa que a linha digitada foi efetivada.<br>
 Agora, podemos configurar algumas opções de usuário, pra que facilite na utilização do vrp.<br>
-Só que para isso temos que entrar no modo de usuário com privilégios da seguinte forma:
+Só que para isso temos que entrar no modo com privilégios da seguinte forma:
 
 ```ml
 <Huawei>system-view
