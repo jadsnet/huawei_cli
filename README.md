@@ -96,7 +96,7 @@ Repare que após o comando, aparece uma mensagem indicamos que entramos no modo 
 e se quisermos retornar para mod <i>"user-view"</i> pressionamos <i>"Ctrl + Z"</i><br>
 
 Repare também que no final o nome do router está entre <i>" [  ] "</i>, indicando que já estamos no modo <i>system-view</i><br>
-Já que estamos no modo system iremos configurar algumas opções de usuário.<br>
+Já que estamos nesse modo, iremos configurar algumas opções de usuário.<br>
 
 Entrando nas configurações do usuário console:
 
