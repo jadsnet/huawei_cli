@@ -28,7 +28,7 @@ Os mesmos comandos funcionam também utilizando o emulador ENSP <i>(foi desconti
 
 <h1>1 - Login</h1>
 
-Nessa primeira parte vamos precisar de entrar com usuário <i>super</i> e senha <i>super</i>.<br>
+Nessa primeira parte precisamos de entrar com usuário <i>super</i> e senha <i>super</i>.<br>
 Lembrando que ao digitar a senha, os caracteres não aparecem:
 <br>
 
