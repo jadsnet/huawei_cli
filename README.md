@@ -122,13 +122,20 @@ repare que o conteudo entre <i>" [  ] "</i> foi alterado:
 [Huawei-ui-console0]quit
 [Huawei]
 ```
+Pondemos alterar o nome do equipamento:
 
+```ml
+[Huawei]sysname "nome do seu router/switch"
+[Huawei]
+```
 
+Sem aspas, coloque apenas o nome que deseja, ficando dessa forma o comando:
 
+```ml
+[Huawei]sysname Router-01
+[Router-01]
+```
 
-
-
-
-
-
+Note que o nome <i>" [Huawei] "</i> foi alterado para <i>" [Router-01] "</i>, significa que a alteração<br>
+do nome ocorreu com sucesso.
 
