@@ -31,7 +31,7 @@ Nessa primeira parte vamos precisar de entrar com usuário <i>super</i> e senha 
 Lembrando que ao digitar a senha, os caracteres não aparecem:
 <br>
 
-```
+```ml
       Press any key to get started
      
 Login authentication
@@ -53,12 +53,12 @@ The password has been changed successfully.
 
 Após logar deverá aparecer a seguinte mensagem:
 
-```cs
+```ml
 [<Huawei>
 Feb 28 2021 02:22:49+00:00 Huawei AAA/4/ChangePasswordAlarm:OID 1.3.6.1.4.1.2011.5.2.2.2.0.112 Local account password has been modified.(TYPE:-- User-name:super)
 <Huawei>
 Feb 28 2021 02:22:49+00:00 Huawei LINE/4/USERLOGIN:OID 1.3.6.1.4.1.2011.5.25.207.2.2 A user login. (UserIndex=0, UserName=super, UserIP=Console0, UserChannel=CON0)
-<Huawei>]
+<Huawei>
 ```
 
 <h1>2 - Geral / Usuário </h1>
@@ -67,7 +67,7 @@ Repare que ao logar, aparece o nome do router/switch entre os simbolos de " <> "
 isso significa que estamos logados no modo "user-view" ou modo usuário sem muitos privilégios.<br>
 Repare também que sempre aparece alguma mensagem de log abaixo:
 
-```
+```ml
 <Huawei>
 Feb 28 2021 02:22:49+00:00 Huawei AAA/4/ ...
 ```
@@ -76,7 +76,7 @@ Nessa segunda etapa, é ideal utilizar um comando para desativar essas mensagens
 pois em ambiente de produção pode ser que atrapalhe ao digitar alguma linha de comando.<br>
 Mesmo no modo usuário, conseguiremos desabilitar essas mensagens com o comando:
 
-```
+```ml
 <Huawei>undo terminal monitor
 Info: Current terminal monitor is off.
 ```
@@ -85,7 +85,7 @@ Pressionando enter após cada comando, já significa que a linha digitada foi ef
 Agora, podemos configurar algumas opções de usuário, pra que facilite na utilização do vrp.<br>
 Só que para isso temos que entrar no modo de usuário com privilégios da seguinte forma:
 
-```
+```ml
 <Huawei>system-view
 Enter system view, return user view with Ctrl+Z.
 [Huawei]
@@ -99,7 +99,7 @@ Já que estamos no modo system iremos configurar algumas opções de usuário.<b
 
 Entrando nas configurações do usuário console:
 
-```
+```ml
 [Huawei]user-interface console 0
 [Huawei-ui-console0]
 ```
@@ -108,7 +108,7 @@ Sempre que entramos em algum submenu do vrp, é adicionando entre " [ ] " o nome
 Para evitar que o sistema fique deslogando, vamos configurar os minutos que podemos ficar "ociosos" sem digitar<br>
 nenhum comando no console e o sistema não nos deslogue:
 
-```
+```ml
 [Huawei-ui-console0]idle-timeout 2000
 ```
 
