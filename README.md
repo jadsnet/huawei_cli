@@ -105,7 +105,7 @@ Entrando nas configurações do usuário console:
 ```
 
 Sempre que entramos em algum submenu do vrp, é adicionando entre " [ ] " o nome da instancia em que estamos.<br>
-Para evitar que o sistema fique deslogando, vamos configurar os {c:#B81365}minutos{/c} que podemos ficar "ociosos" sem digitar<br>
+Para evitar que o sistema fique deslogando, vamos configurar os {c:red}minutos{/c} que podemos ficar "ociosos" sem digitar<br>
 nenhum comando no console e o sistema não nos deslogue:
 
 ```ml
