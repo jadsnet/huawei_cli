@@ -24,6 +24,7 @@ O sistema VRP dessa imagem, após ser iniciada dentro do eve-ng, demora cerca de
 
 ![image](https://user-images.githubusercontent.com/48611984/109408745-1ecac980-796b-11eb-888b-262b48c0d7de.png)
 
+Os mesmos comandos funcionam também utilizando o emulador ENSP <i>(foi descontinuado pela Huawei)</i>
 
 <h1>1 - Login</h1>
 
@@ -104,13 +105,25 @@ Entrando nas configurações do usuário console:
 [Huawei-ui-console0]
 ```
 
-Sempre que entramos em algum submenu do vrp, é adicionando entre " [ ] " o nome da instancia em que estamos.<br>
+Sempre que entramos em algum submenu do vrp, é adicionando entre <i>" [  ] "</i> o nome da instancia em que estamos.<br>
 Para evitar que o sistema fique deslogando, vamos configurar os __minutos__ que podemos ficar "ociosos" sem digitar<br>
 nenhum comando no console e o sistema não nos deslogue:
 
 ```ml
 [Huawei-ui-console0]idle-timeout 60
 ```
+
+Ainda no modo de configuração de usuário, podemos alterar o armazenamento do histórico de comandos usados no C L I <br>
+Na mesma tela, podemos usar o comando <i>"quit"</i> para retornar a uma instância anterior, saindo do modo de configuração atual,<br>
+repare que o conteudo entre <i>" [  ] "</i> foi alterado:
+
+```ml
+[Huawei-A-ui-console0]history-command max-size 256
+[Huawei-A-ui-console0]quit
+[Huawei]
+```
+
+
 
 
 
