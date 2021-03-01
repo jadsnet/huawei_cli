@@ -118,8 +118,8 @@ Na mesma tela, podemos usar o comando <i>"quit"</i> para retornar a uma instânc
 repare que o conteudo entre <i>" [  ] "</i> foi alterado:
 
 ```ml
-[Huawei-A-ui-console0]history-command max-size 256
-[Huawei-A-ui-console0]quit
+[Huawei-ui-console0]history-command max-size 256
+[Huawei-ui-console0]quit
 [Huawei]
 ```
 
